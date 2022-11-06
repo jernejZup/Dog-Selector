@@ -2,18 +2,11 @@
 
 ## Project setup
 ```
-npm install
+docker build -t dog-selector .
 ```
 
-### Compiles and hot-reloads for development
+### Run
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+docker run -p 8080:8080 dog-selector
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
